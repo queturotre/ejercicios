@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/index.css">
+        <title>Window</title>
+    </head>
+    <body>
+        <div class="main">
+            <h1>Hola</h1>
+            <p>
+                Tienes un carro que consume 1 litro de gasolina por cada cierta cantidad de kilómetros recorridos.
+                Puedes hacer un viaje por la cantidad de tiempo y velocidad que quieras y calcular
+                cuántos litros de gasolina se necesitan para tu viaje. <br /><br />
+            </p>
+            <form action="" class="formato">
+                <label for="kmlitros">Cuántos kilómetros recorre por litro?</label>
+                <input type="number" id="kmlitros" placeholder="Kilómetros por litro de gasolina" />
+                <label for="time">Cuánto tiempo en horas dura el viaje?</label>
+                <input type="number" id="time" placeholder="Horas" />
+                <label for="speed">Cuánta fue la velocidad promedio?</label>
+                <input type="number" id="speed" placeholder="En km/h" /><br>
+                <button type="button" onclick="mostrar()">Calcular</button>
+            </form>
+            <p id="text"></p>
+            <br>
+            <article class="mascon">
+                <h2>Más contenido</h2>
+                <p>Revisa mis otros ejercicios:</p>
+                <ul class="lista">
+                    <li><a href="distancia.html">Distancia de autos</a></li>
+                    <li><a href="selectionTest1.html">Encuentra el número</a></li>
+                </ul>
+            </article><br>
+            <footer class="pie">
+                <p>Hecho el 24 de agosto de 2021 por &copy;Rich4rd3rd. Ver código <a href="">aquí</a></p>
+            </footer>
+            <script src="./js/index.js"></script>
+        </div>
+    </body>
+</html>

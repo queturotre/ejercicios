@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    background-color: rgba(169, 139, 197, 0.74);
+    border: blueviolet solid 2px;
+    border-radius: 1.3rem;
+    height: 100%;
+    padding: 2rem;
+    width: 90%;
+}
+    .main h1{
+        text-align: center;
+        color: blueviolet;
+    }
+    .main p{
+        text-align: justify;
+    }
+    .formato{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+        .formato label{
+            text-align: center;
+        }
+        .formato input{
+            border: solid blueviolet 1px;
+            border-radius: 4px;
+            background: transparent;
+            height: 2.5rem;
+            transform: translateX(13%);
+            width: 80%;
+        }
+        ::placeholder{
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        .formato button{
+            border: solid blueviolet 1px;
+            border-radius: 11px;
+            background: blueviolet;
+            color: white;
+            font-size: 1.5rem;
+            height: 2.5rem;
+            transform: translateX(13%);
+            width: 80%;
+        }
+        .formato p{
+            text-align: center;
+        }
+    .mascon h2{
+        color: blueviolet;
+        text-align: center;
+    }
+    .mascon p{
+        text-align: center;
+    }
+        .lista{
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+            .lista li{
+                list-style: none;
+            }
+    .pie{
+        color: white;
+    }
+        .pie p{
+            text-align: center;
+        }
+
+@media (min-width: 600px){
+    .main{
+        background: rgba(224, 80, 80, 0.637);
+    }
+}

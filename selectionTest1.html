@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/selectionTest1.css">
+        <title>Selection Test</title>
+    </head>
+    <body>
+        <div class="main">
+            <h1>Puedes encontrar los números?</h1>
+            <p>
+                Introduce 4 números (A, B, C y D). <br /> Si B es mayor que C y D es mayor que A 
+                y la suma de C y D es mayor que la suma de A y B y si C y D son positivos 
+                y si A es un nuémero par entonces lo lograste, si no, vuelve a intentarlo.
+            </p><br>
+            <form action="" class="formato">
+                <label for="a">Primer número</label>
+                <input type="number" id="a" placeholder="A" />
+                <label for="b">Segundo número</label>
+                <input type="number" id="b" placeholder="B" />
+                <label for="c">Tercer número</label>
+                <input type="number" id="c" placeholder="C" />
+                <label for="d">Cuarto número</label>
+                <input type="number" id="d" placeholder="D" /> <br>
+                <button type="button" onclick="consultar()">Consultar</button>
+                <p id="text"></p><br>
+            </form>
+            <article class="mascon">
+                <h2>Más contenido</h2>
+                <p>Revisa mis otros ejercicios:</p>
+                <ul class="lista">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="distancia.html">Distancia de autos</a></li>
+                </ul>
+            </article><br>
+            <footer class="pie">
+                <p>Hecho el 24 de agosto de 2021 por &copy;Rich4rd3rd. Ver código <a href="">aquí</a></p>
+            </footer>
+            <script src="./js/selectionTest1.js"></script>
+        </div>
+    </body>
+</html>
